@@ -1,3 +1,11 @@
 spring:
   application:
     name: ms-order
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/orders
+
+server:
+  error:
+    include-message: always
